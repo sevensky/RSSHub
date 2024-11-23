@@ -16,7 +16,7 @@
                 "EditorConfig.EditorConfig",
                 "esbenp.prettier-vscode",
                 // "deepscan.vscode-deepscan",
-                "rangav.vscode-thunder-client",
+                // "rangav.vscode-thunder-client",
                 // "SonarSource.sonarlint-vscode",
                 "unifiedjs.vscode-mdx",
                 "ZihanLi.at-helper"
