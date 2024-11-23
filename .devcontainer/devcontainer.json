@@ -15,6 +15,7 @@
                 "eamodio.gitlens",
                 "EditorConfig.EditorConfig",
                 "esbenp.prettier-vscode",
+                "MS-CEINTL.vscode-language-pack-zh-hans",
                 // "deepscan.vscode-deepscan",
                 // "rangav.vscode-thunder-client",
                 // "SonarSource.sonarlint-vscode",
