@@ -15,9 +15,9 @@
                 "eamodio.gitlens",
                 "EditorConfig.EditorConfig",
                 "esbenp.prettier-vscode",
-                "deepscan.vscode-deepscan",
+                // "deepscan.vscode-deepscan",
                 "rangav.vscode-thunder-client",
-                "SonarSource.sonarlint-vscode",
+                // "SonarSource.sonarlint-vscode",
                 "unifiedjs.vscode-mdx",
                 "ZihanLi.at-helper"
             ]
