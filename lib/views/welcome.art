@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Welcome to RSSHub!</title>
+    <title>襄音 RSS</title>
     {{ if disallowRobot }}
         <meta name="robots" content="noindex">
     {{ /if }}
@@ -78,23 +78,16 @@
 
 <body>
     <div class="content">
-        <p>
+        <!--p>
             <img src="./logo.png" alt="RSSHub" width="100" loading="lazy" />
-        </p>
-
-        <h1>Welcome to
-            <span style="color: #F5712C;">RSSHub</span>!</h1>
-
-        <p>If you see this page, the RSSHub is successfully installed and working.</p>
-
+        </p-->
+        <h1> <span style="color: #F5712C;">襄音自建RSS</span> 服务正常</h1>
         <p>For online documentation and support please refer to
             <a href="https://docs.rsshub.app/" target="_blank">docs.rsshub.app</a>.</p>
-
-        <p>-- Made with
+        <p>-- Service with
             <i style="color:#d43f57">♥</i> by
-            <a href="https://diygod.cc" target="_blank">DIYgod</a>
+            <a href="https://www.qingzhishi.com" target="_blank">轻知识</a>
         </p>
-
         {{ if showDebug }}
         <details>
             <summary>debug</summary>

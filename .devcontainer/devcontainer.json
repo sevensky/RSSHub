@@ -12,15 +12,15 @@
             "extensions": [
                 "cweijan.vscode-database-client2",
                 "dbaeumer.vscode-eslint",
-                "eamodio.gitlens",
                 "EditorConfig.EditorConfig",
                 "esbenp.prettier-vscode",
-                "MS-CEINTL.vscode-language-pack-zh-hans",
-                // "deepscan.vscode-deepscan",
+                "MS-CEINTL.vscode-language-pack-zh-hans"
+                // "ZihanLi.at-helper",
+                // "eamodio.gitlens",
                 // "rangav.vscode-thunder-client",
+                // "deepscan.vscode-deepscan",
                 // "SonarSource.sonarlint-vscode",
-                "unifiedjs.vscode-mdx",
-                "ZihanLi.at-helper"
+                // "unifiedjs.vscode-mdx",
             ]
         }
     },
