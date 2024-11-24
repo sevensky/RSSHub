@@ -1,0 +1,52 @@
+# 修改完 workspace.yaml 后,你需要点击保存修改并重新启动工作空间以使其生效。
+# https://ide.cloud.tencent.com/docs/guide/yaml.html#_4-%E8%A7%A3%E8%AF%BB-workspace-yml
+
+version: "v1"
+image: "cloudstudio.tencentcloudcr.com/saas.container/ws-node-18:v1.0.0-20240525"
+# image: "cloudstudio-devops-docker.pkg.coding.net/artifacts/saas.container/node:16.17.0"
+name: "RSSHub"
+description: "RSSHub"
+
+tags:
+- "Vue.js"
+- "Node.js"
+# tags:  ["Node.js", "腾讯云"  ]
+
+envs:
+   - name: "SW_DEV"
+     value: "true"
+     CACHE_TYPE: redis
+    #  REDIS_URL: 'redis://redis:6379/'
+    #  PUPPETEER_WS_ENDPOINT: 'ws://browserless:3000'  # marked
+    #  PROXY_URI: 'socks5h://warp-socks:9091'
+extensions:
+   - "https://cs-res-1258344699.file.myqcloud.com/vscode_plugins/GitHub.vscode-pull-request-github.0.48.0.vsix"
+  #  - "znck.vue@0.11.4"
+  #  - "hollowtree.vue-snippets@0.1.12"
+
+
+# lifecycle定义的是整个项目的生命周期各个阶段需要执行的内容，各个定义的生命周期如下图所示：
+# init：首次创建空间后的启动，启动后执行
+# start：日常启动空间后执行
+# destroy：停止空间前执行
+
+# lifecycle:
+#    init:
+#       - name: "run nginx"
+#         command: "apt -y update && apt -y install nginx && service nginx start"
+
+# sidecar定义常用的组件，目前支持的组件有mysql、redis，
+# 如果你的项目需要使用到这两类组件，则定义enabled为true即可，否则可以置为false
+sidecar:
+   mysql:
+      enabled: false
+      password: "123456"
+      database: "uzymall"
+      port: 3306
+   redis:
+      enabled: true
+      password: "123456"
+      port: 6379
+
+
+
