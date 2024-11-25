@@ -1,0 +1,18 @@
+# .vscode/preview.yml
+autoOpen: false # 打开工作空间时是否自动开启所有应用的预览
+apps:
+  - port: 3001
+    run: node ./lib/index.js
+    root: ./
+    name: Nodejs
+    description: 我的第一个 App。
+    autoOpen: true
+    autoPreview: false
+
+  - port: 3002 # 应用的端口
+    run: node ./pupptter-demo.js # 应用的启动命令
+    root: ./test # 应用的启动目录
+    name: my-first-app
+    description: Nodejs 是一个开源的、跨平台的、后端 JavaScript 运行环境。
+    autoOpen: false # 打开工作空间时是否自动开启预览（优先级高于根级 autoOpen）
+    autoPreview: false # 是否自动打开预览, 若无则默认为true

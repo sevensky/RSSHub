@@ -5,7 +5,7 @@ const { join } = require('path');
  */
 module.exports = {
     // Changes the cache location for Puppeteer.
-    cacheDirectory: join(__dirname, '.', '.cache', 'puppeteer'),
+    cacheDirectory: join(__dirname, 'assets', '.cache', 'puppeteer'),
 
     // "chrome-headless-shell"
     // executablePath
