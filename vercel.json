@@ -25,7 +25,6 @@
         "DEBUG_INFO" : "true" ,
         "REQUEST_TIMEOUT" :  "10000" ,
         "CACHE_EXPIRE " :  "1200" , 
-        "CACHE_CONTENT_EXPIRE " : "1 * 60 * 60", 
         "REDIS_URL" : "redis://default:5WrycJrezeeJ8EYJeassOlQ0gzVFFtyX@redis-12408.c256.us-east-1-2.ec2.redns.redis-cloud.com:12408",
         "UA" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
         "PORT" : "3001",
