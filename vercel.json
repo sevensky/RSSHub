@@ -22,7 +22,7 @@
         "PLATFORM": "vercel",
 
         "NODE_ENV" : "dev",
-        "DEBUG_INFO" : true ,
+        "DEBUG_INFO" : "true" ,
         "REQUEST_TIMEOUT" :  10000 ,
         "CACHE_TYPE " : "",
         "CACHE_EXPIRE " :  1200 , 
