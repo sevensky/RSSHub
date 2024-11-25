@@ -8,8 +8,7 @@
         }
     ],
     "regions": ["hkg1"] ,
-    "installCommand": "pnpm install & npx puppeteer browsers install chrome " ,
-    "buildCommand": "pnpm build:all" ,
+    "installCommand": "pnpm install" ,
     "devCommand": "pnpm dev",
     "env": {
       "PLATFORM": "vercel",
