@@ -11,7 +11,7 @@
     "installCommand": "pnpm install & npx puppeteer browsers install chrome " ,
     "buildCommand": "pnpm build" ,
     "devCommand": "pnpm dev",
-    "env.temp": {
+    "env": {
       "PLATFORM": "vercel",
       "CI": "false",
       "CHROME_PATH": "/usr/bin/chromium",
