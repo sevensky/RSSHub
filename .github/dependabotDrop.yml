@@ -12,8 +12,8 @@ updates:
       - dependency-name: jsrsasign
         versions: ['>=11.0.0'] # no longer includes KJUR.crypto.Cipher for RSA
       # ESM only packages
-      - dependency-name: fanfou-sdk
-        versions: ['>=5.0.0']
+      # - dependency-name: fanfou-sdk
+      #   versions: ['>=5.0.0']
       - dependency-name: got
         versions: ['>=12.0.0']
       - dependency-name: ip-regex
