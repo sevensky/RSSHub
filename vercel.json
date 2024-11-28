@@ -4,16 +4,17 @@
     "routes": [
       { 
         "src": "/.*", 
-        "dest": "/lib/vercel.js" 
+        "dest": "/api/vercel.js" 
       }
     ],
-    "devCommand": "pnpm dev"
-    ,"regions": ["hkg1"] 
-    ,"env": {
+    "regions": ["hkg1"] ,
+    "installCommand": "pnpm install" ,
+    "devCommand": "pnpm dev",
+    "env": {
      
       "PLATFORM": "vercel",
       "CI": "false",
-      "CHROME_PATH_BAK": "/usr/bin/chromium",
+      "CHROME_PATH": "/usr/bin/chromium",
       "NODE_VERSION": "18.x"
     },
     "build": {
